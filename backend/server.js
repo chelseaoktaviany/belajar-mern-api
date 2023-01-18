@@ -15,6 +15,7 @@ app.use(express.urlencoded({extended: true}))
 
 // using routes
 app.use('/api/goals', require('./routes/goalRoutes'));
+app.use('/api/users', require('./routes/userRoutes'));
 
 // using middleware
 app.use(errorHandler);
