@@ -1,2 +1,2 @@
-# mern-tutorial
+# belajar-mern-api
 Getting started
